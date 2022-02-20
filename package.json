@@ -4,8 +4,17 @@
   "description": "expressbowrd",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "katumoto",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "sequelize": "^6.16.2",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "express-session": "^1.17.2"
+  }
 }
